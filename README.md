@@ -1,5 +1,6 @@
 <h1 style="text-align: center;">Validar Email Formulario</h1>
-<hr>
+
+---
 
 ## JavaScript Moderno Project #2
 
@@ -10,6 +11,9 @@
 - Aprendi a agregar iconos con material icons agregandole una fuente en formato capitalize al pseudoelemento
 - Aprendi la diferencia que hay entre los eventos que llevan el "on" delante como "onclick" y los que no lo llevan como "click"
 - Aprendi a validar el email
+- Aprendi a crear un spinner
+- Aprendi a mostrar un mensaje para las diferentes validaciones
+- Aprendi a resetear el formulario despues de enviar el formulario
 
 [Udemy Course](https://www.udemy.com/course/javascript-moderno-guia-definitiva-construye-10-proyectos/)
 
