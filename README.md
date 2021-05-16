@@ -1,6 +1,8 @@
 <h1 style="text-align: center;">Validar Email Formulario</h1>
 <hr>
+
 ## JavaScript Moderno Project #2
+
 ### Overview
 
 ![Preview](https://i.ibb.co/9wkK0nn/Validacion-de-formulario.png)
