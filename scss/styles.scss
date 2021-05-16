@@ -1,0 +1,119 @@
+// Imports
+@import "variables";
+
+body {
+	font: {
+		family: "Raleway";
+	}
+	background-color: $ligth-white;
+}
+.header {
+	background-color: $dark-blue;
+	padding: 18px 0;
+	margin-bottom: 24px;
+	.titulo {
+		font: {
+			weight: 400;
+			size: 18px;
+		}
+		text: {
+			align: center;
+		}
+		color: white;
+	}
+}
+.main {
+	margin-bottom: 32px;
+	.form {
+		margin: 0 auto;
+		max-width: 400px;
+		.campo {
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 20px;
+
+			label {
+				margin-bottom: 4px;
+			}
+			input,
+			textarea {
+				background-color: $ligth-white;
+				border: 0;
+				padding: 10px;
+				display: block;
+				box-shadow: 2px 2px 10px 0px #b1b1b1;
+				outline: none;
+				resize: none;
+				font: {
+					family: "Raleway";
+					size: 14px;
+				}
+				color: #333;
+			}
+			// Clases para JS
+			.borde-azul {
+				border-bottom: 2px solid $ligth-blue;
+			}
+			.borde-verde {
+				border-bottom: 2px solid $ligth-green;
+			}
+			.borde-rojo {
+				border-bottom: 2px solid $ligth-red;
+			}
+		}
+		.campo-btn {
+			margin-top: 32px;
+			display: flex;
+			justify-content: space-between;
+			gap: 8px;
+
+			.submit,
+			.reset {
+				position: relative;
+				flex-basis: 100%;
+				height: 48px;
+				box-shadow: 2px 2px 10px 0px #b1b1b1;
+				input {
+					position: absolute;
+					width: 100%;
+					height: 100%;
+					z-index: 100;
+					border: none;
+					outline: none;
+					background-color: transparent;
+					color: white;
+					font: {
+						family: "Raleway";
+						weight: 400;
+						size: 18px;
+					}
+					&:hover {
+						cursor: pointer;
+					}
+				}
+			}
+			.submit {
+				background-color: $ligth-blue-disable;
+			}
+			.reset {
+				background-color: $ligth-green;
+			}
+			.submit::after,
+			.reset::after {
+				position: absolute;
+				font-family: "Material Icons";
+				color: $ligth-white;
+				font-size: 24px;
+				top: 12px;
+			}
+			.submit::after {
+				content: "send";
+				right: 40px;
+			}
+			.reset::after {
+				content: "delete";
+				right: 8px;
+			}
+		}
+	}
+}
