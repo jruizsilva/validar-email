@@ -31,17 +31,14 @@ body {
 		transform: rotate(360deg);
 	}
 }
-.btn-disable:hover {
+.opacity-50 {
+	opacity: 0.5;
+}
+.cursor-not-allowed:hover {
 	cursor: not-allowed;
 }
-.btn-allowed:hover {
+.cursor-allowed:hover {
 	cursor: pointer;
-}
-.bg-btn-disable {
-	background-color: $ligth-blue-disable;
-}
-.bg-btn-allowed {
-	background-color: $ligth-blue;
 }
 .msj-correcto {
 	@include ventana-modal($ligth-green);
@@ -134,6 +131,9 @@ body {
 						size: 18px;
 					}
 				}
+			}
+			.submit {
+				background-color: $ligth-blue;
 			}
 			.reset {
 				background-color: $ligth-green;

@@ -42,20 +42,16 @@ body {
   }
 }
 
-.btn-disable:hover {
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.cursor-not-allowed:hover {
   cursor: not-allowed;
 }
 
-.btn-allowed:hover {
+.cursor-allowed:hover {
   cursor: pointer;
-}
-
-.bg-btn-disable {
-  background-color: #1b98e073;
-}
-
-.bg-btn-allowed {
-  background-color: #089df3;
 }
 
 .msj-correcto {
@@ -229,6 +225,10 @@ body {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 18px;
+}
+
+.main .form .campo-btn .submit {
+  background-color: #089df3;
 }
 
 .main .form .campo-btn .reset {
