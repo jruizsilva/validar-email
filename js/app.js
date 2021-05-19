@@ -17,6 +17,7 @@ const validarCampo = (e) => {
 		msjError("Todos los campos son obligatorios", tagInput);
 	} else if (e.target.type === "email") {
 		if (validarEmail(e.target.value)) {
+			borrarMsjError();
 			bordeVerde(tagInput);
 		} else {
 			msjError(`Email "${e.target.value}" no es valido`, tagInput);
